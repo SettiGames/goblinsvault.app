@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #EFEDD0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #261813;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
+}
+
+.hero .logo {
+    width: 500px;
+    margin: 30px 0 40px;
+}
+
+.hero .social {
+    padding: 10px 0;
+}
+
+.hero .social img {
+    width: 35px;
+    margin: 0 5px;
+}
+
+.body .signup {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.body .divider {
+    width: 100%;
+}
+
+.body p {
+    line-height: 1.75;
+    padding: 0 20px;
+}
+
+.body .goblins {
+    width: 100%;
+    font-size: 0;
+    padding-top: 20px;
+}
+
+.body .goblins img {
+    width: 20%;
+    padding: 0 20px;
+}
+
+footer {
+    overflow: auto;
+    padding: 20px 50px;
+    color: #EFEDD0;
+    font-size: 14px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, .5);
+}
+
+footer img {
+    width: 75px;
+}
+
+footer span {
+    position: relative;
+    top: -28px;
+    left: 5px;
+}
+
+footer .left {
+    float: left;
+    width: 45%;
+}
+
+footer .right {
+    float: right;
+    width: 45%;
+    padding-top: 15px;
+    text-align: right;
+}
+
+footer .right a {
+    display: block;
+    padding: 0 0 5px;
+    color: #EFEDD0;
+}
