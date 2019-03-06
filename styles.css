@@ -15,10 +15,13 @@ section {
 }
 
 .container {
-    width: 960px;
+    width: 850px;
     margin: 0 auto;
 }
 
+
+
+/* Hero */
 .hero {
     text-align: center;
     background-image: url(images/background.jpg);
@@ -40,6 +43,9 @@ section {
     margin: 0 5px;
 }
 
+
+
+/* Body */
 .body .signup {
     text-align: center;
     padding: 30px 0 50px;
@@ -57,7 +63,7 @@ section {
 .body .goblins {
     width: 100%;
     font-size: 0;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .body .goblins img {
@@ -87,6 +93,39 @@ section {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
 
+.body .callout {
+    margin-top: 40px;
+    padding: 30px 20px 0;
+    overflow: hidden;
+    border-top: 1px solid #A5A28B;
+}
+
+
+.body .callout h3 {
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+}
+
+.body .callout p {
+    padding: 0;
+}
+
+.body .callout img {
+    width: 250px;
+}
+
+.body .callout.left img {
+    float: left;
+    margin-right: 30px;
+}
+
+.body .callout.right img {
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+/* Footer */
 footer {
     overflow: auto;
     padding: 20px 50px;
@@ -123,4 +162,48 @@ footer .right a {
     display: block;
     padding: 0 0 5px;
     color: #EFEDD0;
+}
+
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .hero .logo {
+        width: 85%;
+        margin: 15px 0 20px;
+    }
+
+    .body .goblins img {
+        width: 20%;
+        padding: 0;
+    }
+
+    .body .callout img {
+        display: none;
+    }
+
+    footer .left {
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer img {
+        display: inline-block;
+    }
+
+    footer span {
+        display: block;
+        top: 0;
+        left: 0;
+    }
+
 }
