@@ -87,11 +87,11 @@
             console.log(xhr.status, xhr.statusText);
             console.log(xhr.responseText);
             form.reset();
-            var formElements = form.querySelector(".form-elements")
+            var formElements = form.querySelector(".gform")
             if (formElements) {
               formElements.style.display = "none"; // hide form
             }
-            var thankYouMessage = form.querySelector(".thankyou_message");
+            var thankYouMessage = form.querySelector(".thankyou");
             if (thankYouMessage) {
               thankYouMessage.style.display = "block";
             }

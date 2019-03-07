@@ -51,6 +51,10 @@ section {
     padding: 30px 0 50px;
 }
 
+.body .signup .thankyou {
+    display: none;
+}
+
 .body .divider {
     width: 100%;
 }
